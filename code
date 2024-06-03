@@ -1,0 +1,9 @@
+class Coder:
+    def __init__(self, name):
+        self.name = name
+
+    def show_kungfu_moves(self):
+        print(f"{self.name} demonstrates some amazing coding kung-fu moves!")
+
+coder = Coder("John")
+coder.show_kungfu_moves()
